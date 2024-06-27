@@ -1,0 +1,127 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    color: #E5E7EB;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.topper {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_card {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero_gen {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.hero_text_wrapper {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.hero_text {
+    text-align: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}       
+
+
+.hero_main {
+    margin: 10px;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero_sub {
+    width: 200px;
+    align-self: center;
+}
+
+img {
+    width: 200px;;
+    height: 200px;
+}
+
+.ikl {
+    width: 250px;
+}
+
+.album_showcase {
+    color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.album_text_header {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.album_desc {
+    width:200px;
+}
+
+.album_covers_container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.album_container {
+    border-color: #1f2937;
+    border-style: solid;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
